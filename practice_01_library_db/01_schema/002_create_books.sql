@@ -1,9 +1,9 @@
 CREATE TABLE books (
-    id bigserial,
-    book_id numeric,
-    title varchar(100),
-    author_id numeric,
-    publication_year numeric,
-    genre varchar(100),
-    available boolean
+    id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    book_id INTEGER,
+    title TEXT,
+    author_id INTEGER,
+    publication_year INTEGER,
+    genre TEXT,
+    available BOOLEAN
 );

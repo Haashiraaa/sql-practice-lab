@@ -1,8 +1,8 @@
 CREATE TABLE authors (
-    id bigserial,
-    author_id numeric,
-    first_name varchar(100),
-    last_name varchar(100),
-    birth_year numeric,
-    country varchar(100)
+    id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    author_id INTEGER,
+    first_name TEXT,
+    last_name TEXT,
+    birth_year INTEGER,
+    country TEXT
 );
