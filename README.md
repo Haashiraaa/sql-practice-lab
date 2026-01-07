@@ -16,7 +16,7 @@ Each practice project is organized into clearly separated folders for table crea
 
 Each practice project follows a consistent layout:
 
-practice_project_01/ ├── create_tables/ │   └── create_tables.sql ├── insert_data/ │   └── insert_data.sql └── analysis/ └── analysis_queries.sql
+![Alt text](image/screenshot.jpg)
 
 This structure helps prevent accidental data duplication and keeps database operations clear and repeatable.
 

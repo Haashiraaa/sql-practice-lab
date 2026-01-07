@@ -1,0 +1,6 @@
+book_id,title,author,category
+101,Introduction to SQL,John Smith,Databases
+102,Python for Data Analysis,Wes McKinney,Programming
+103,Clean Code,Robert Martin,Software Engineering
+104,Statistics 101,Jane Doe,Math
+105,Relational Theory,Edgar Codd,Databases
